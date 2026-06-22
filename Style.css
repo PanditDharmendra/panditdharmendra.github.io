@@ -15,34 +15,36 @@ body {
     background-position: center center;
     background-size: max(1600px, 100vw);
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     position: relative;
     margin: 0;
 
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Martel+Sans:wght@900&display=swap');
 
 .main .container {
     /* Font styling  */
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     font-size: 4rem;
-    color: #ffffff;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
     position: relative;
 
 
 }
 
+
+
 .highlight-box {
     /* Layout styling */
     padding: 10px 30px;
-    text-align: center;
     margin-right: 20px;
     display: inline-block;
     border-radius: 20px;
@@ -52,7 +54,24 @@ body {
 
 }
 
-.open-box {
-    text-align: center;
+
+nav {
+    background-color: red;
+    max-width: 60vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 
 }
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+
+
+
