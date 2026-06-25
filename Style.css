@@ -18,7 +18,7 @@ body {
     height: 70vh;
     position: relative;
     margin: 0;
-    border-radius: 6px;
+    border-radius: 0 0 6px 6px ;
 
 }
 
@@ -123,6 +123,10 @@ body {
 
 }
 
+.first-introduction img {
+    border-radius: 5px 5px 5px 5px;
+}
+
 
 
 .About {
@@ -161,8 +165,8 @@ body {
 
 /* The second Blogs-section is started here  */
 .second-blogs {
-    background-color: oklch(97.444% 0.02017 74.582);
-    height: 75vh;
+        background-color: oklch(98% .016 73.684);
+        height: 75vh;
 }
 
 
