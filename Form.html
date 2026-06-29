@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+
+    <div class="responsive-form">
+
+        <form action="/action_page.php">
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Your full name">
+
+            <label for="gmail">Your Gmail:</label>
+            <input type="text" id="gmail" name="gmail" placeholder="Your gmail">
+
+            <label for="district">District:</label>
+            <select id="district" name="district">
+                <option value="bara">Bara</option>
+                <option value="parsa">Parsa</option>
+                <option value="lalitpur">Lalitpur</option>
+            </select>
+
+            <label for="message">Message or Feedback:</label>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
