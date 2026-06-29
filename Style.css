@@ -236,6 +236,7 @@ nav .logo:hover {
 }
 
 .footer ul li {
+    list-style-type: none;
     padding-top: 20px;
 
     
