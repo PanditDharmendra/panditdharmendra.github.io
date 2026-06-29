@@ -55,6 +55,13 @@ body {
      
 }  
  
+/* 
+.heading img:hover{
+    size: 200px;
+} */
+
+
+
 
  nav  {
   display: block;
@@ -128,9 +135,6 @@ nav .logo:hover {
 
 
 
-
-
-
 /* The first-introduction section started from Here */
 
 .first-introduction {
@@ -145,6 +149,7 @@ nav .logo:hover {
 
 .first-introduction img {
     border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 
@@ -225,4 +230,19 @@ nav .logo:hover {
 /* The footer is started here  */
 .footer {
     height: 30vh;
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer ul li {
+    padding-top: 20px;
+
+    
+}
+
+.footer ul li a:hover{
+    color:#000000;
+    font-weight: 400;
+    font-size: 20px;
 }
