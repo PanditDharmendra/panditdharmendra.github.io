@@ -220,10 +220,6 @@ nav .logo:hover {
     margin-top: 10px;
 }
 
-.iframe {
-    display: flex;
-    text-align: left;
-}
 
 
 
@@ -249,4 +245,15 @@ nav .logo:hover {
 }
 
 
+
+.input-box .botton {
+    width: 30px;
+    background-color: #000000;
+    color: white;
+    padding: 14px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
