@@ -216,72 +216,77 @@ nav .logo:hover {
     align-content: start;
 
 
-    /* Forces a button to span across both grid columns */
-    .full-width {
-    grid-column: span 2;
+    Forces a button to span across both grid columns 
+     .full-width {
+        grid-column: span 2; 
+    
+     }
+
+
+}
+
+
+
+
+/* Notes Pill Button Styles */
+.category-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 24px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #111111;
+    font-weight: 700;
+    font-size: 1.05rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
 }
 
 
 
-    /* Notes Pill Button Styles */
-    .category-btn {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 18px 24px;
-        border-radius: 14px;
-        text-decoration: none;
-        color: #111111;
-        font-weight: 700;
-        font-size: 1.05rem;
-        border: none;
-        cursor: pointer;
-        transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
-    }
 
-
-
-
-    .category-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
-    }
-
-
-    /* Article Count Badges */
-    .badge {
-        background-color: rgba(255, 255, 255, 0.65);
-        padding: 4px 12px;
-        border-radius: 20px;
-        font-size: 0.85rem;
-        font-weight: 500;
-        color: #333333;
-    }
-
-
-
-
-
-    /* All Blogs colors */
-    .palette-startup {
-        background-color: #df8f6f;
-    }
-
-
-
-    /* Text color overrides for darker background blocks */
-    .palette-fiction .badge,
-    .palette-movies .badge {
-        background-color: rgba(255, 255, 255, 0.25);
-        color: #ffffff;
-    }
-
-
-
-
-
-
+.category-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
 }
+
+
+/* Article Count Badges */
+.badge {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+
+
+
+
+/* All Blogs colors */
+.palette-startup {
+    background-color: #df8f6f;
+}
+
+
+
+/* Text color overrides for darker background blocks */
+.palette-fiction .badge,
+.palette-movies .badge {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
 
 .content-viewer {
     background-color: oklch(98% .016 73.684);
@@ -316,64 +321,64 @@ nav .logo:hover {
 
 }
 
-    /* Embedded Blog Window Frame */
-    #blog-frame {
-        width: 100%;
-        height: 100%;
-        border: none;
-        display: none;
-        /* Stays hidden until a user clicks a blog button */
-    }
-
-    
+/* Embedded Blog Window Frame */
+#blog-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: none;
+    /* Stays hidden until a user clicks a blog button */
+}
 
 
 
-    /* The footer is started here  */
-    @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Martel+Sans:wght@900&display=swap');
 
 
-    .footer {
-        height: 25vh;
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-    }
-
-    .footer ul {
-        font-family: "Martel Sans", sans-serif;
-        margin-left: 150px;
-    }
-
-    .footer ul li {
-        list-style-type: none;
-        padding-top: 9px;
-        color: #111827;
+/* The footer is started here  */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Martel+Sans:wght@900&display=swap');
 
 
-    }
+.footer {
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer ul {
+    font-family: "Martel Sans", sans-serif;
+    margin-left: 150px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    padding-top: 9px;
+    color: #111827;
 
 
-    .footer ul li a:hover {
-        color: #000000;
-        font-weight: 300;
-        font-size: 17px;
-    }
-
-    .input-box {
-        margin-right: 150px;
-    }
+}
 
 
-    .input-box .botton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #000000;
-        color: white;
-        padding: 14px;
-        margin-top: 6px;
-        border: none;
-        border-radius: 1000px;
-        cursor: pointer;
-    }
+.footer ul li a:hover {
+    color: #000000;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.input-box {
+    margin-right: 150px;
+}
+
+
+.input-box .botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 14px;
+    margin-top: 6px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+}
