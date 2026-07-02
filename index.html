@@ -11,8 +11,8 @@
         content="On Dharmendra Pandit's website he writes about the people he meets, the books he's reading, Blogs and what he's learning and working on. Come join the conversation!.He deliver diffrent courses on Startup & Physics to teach people first-principle thinking.">
     <title>Learn, First-Principle Thinking</title>
     <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="" class="nav.css">
     <link rel="stylesheet" href="" class="utility.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -81,16 +81,28 @@
 
     <hr>
     <section class="second-blogs">
-        <di class="left ">
+        <div class="sidebar">
+            <a href="blogs/Ego&Startup.html" target="blog-display" class="category-btn palette-startup"
+                onclick="openBlog()">
+                <span>Startup</span>
+                <span class="badge">Ego and Startups</span>
+            </a>
 
-            kdfoweofjsdkf
-        </di>
-        <div class="right ">
+
+        </div>
+        <div class="content-viewer">
+            <div id="placeholder-text" class="viewer-placeholder">
+                <h2>No Article Selected</h2>
+                <p>Click any category on the left sidebar grid to open its daily entries.</p>
+            </div>
+
+            <iframe id="blog-frame" name="blog-display"></iframe>
 
 
 
 
         </div>
+      
 
     </section>
 
@@ -98,8 +110,8 @@
     <!-- Footer started header -->
     <hr>
     <footer class="footer">
-        
-        
+
+
         <ul>
             <h3>Main</h3>
             <li> <a href="/Blogs">Blog</a></li>
