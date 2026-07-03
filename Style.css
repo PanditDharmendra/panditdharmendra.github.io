@@ -212,7 +212,7 @@ nav .logo:hover {
     overflow-y: auto;
     /* border-right: 1px solid var(--border-color); */
     display: grid;
-    gap: 16px;
+    gap: 3px;
     align-content: start;
 
 
