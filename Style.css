@@ -41,6 +41,8 @@ body {
     position: relative;
     top: 16px;
     z-index: 100;
+    cursor: pointer;
+    
 
 }
 
@@ -49,30 +51,36 @@ body {
     width: 1px;
     height: auto;
     z-index: 10;
+    display:flex;
+    
 
 
 
 
 }
 
-/* 
-.heading img:hover{
-    size: 200px;
+
+/* .heading img:hover{
+    width: 8px;
 } */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Martel+Sans:wght@900&family=Montenegrin+Gothic+One&display=swap');
 
 
 nav {
+    font-family: "Martel Sans", sans-serif;
     display: block;
     color: white;
     padding: 8px 8px;
     text-decoration: none;
+    font-style: normal;
 
 }
 
 
 nav .logo:hover {
+     font-family: "Martel Sans", sans-serif;
     color: white;
     font-weight: 900;
 
@@ -85,16 +93,17 @@ nav .logo:hover {
     border-radius: 39px;
     font-weight: 700;
     z-index: 100;
+    cursor: pointer;
 
 }
 
- .btn:hover {
-             background:black;
-             font-weight: 750;
-             border-style: solid;
-             border-color: white;
-             color: white;
-        }
+.btn:hover {
+    background: black;
+    font-weight: 750;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
 
 
 
@@ -109,7 +118,7 @@ nav .logo:hover {
     font-family: "Martel Sans", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: white;
     display: flex;
     justify-content: center;
@@ -117,9 +126,11 @@ nav .logo:hover {
     height: 63vh;
     position: relative;
     letter-spacing: 1px;
+    
 
 
 }
+
 
 
 
@@ -130,6 +141,7 @@ nav .logo:hover {
     display: inline-block;
     border-radius: 20px;
     background: linear-gradient(to right, #A0A0A0, #2196F3);
+    cursor: pointer;
 
 
 }
