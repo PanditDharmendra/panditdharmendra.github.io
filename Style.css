@@ -78,6 +78,23 @@ nav .logo:hover {
 
 }
 
+.btn {
+    background-color: white;
+    color: black;
+    padding: 11px 21px;
+    border-radius: 39px;
+    font-weight: 700;
+    z-index: 100;
+
+}
+
+ .btn:hover {
+             background:black;
+             font-weight: 750;
+             border-style: solid;
+             border-color: white;
+             color: white;
+        }
 
 
 
@@ -216,11 +233,10 @@ nav .logo:hover {
     align-content: start;
 
 
-    Forces a button to span across both grid columns 
-     .full-width {
-        grid-column: span 2; 
-    
-     }
+    Forces a button to span across both grid columns .full-width {
+        grid-column: span 2;
+
+    }
 
 
 }
@@ -271,6 +287,7 @@ nav .logo:hover {
 .palette-startup {
     background-color: #df8f6f;
 }
+
 .palette-Personal {
     background-color: #24d890;
 }
