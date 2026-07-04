@@ -41,18 +41,17 @@ body {
     position: relative;
     top: 16px;
     z-index: 100;
-    cursor: pointer;
     
 
 }
 
 
-.heading img {
+.heading .menu {
     width: 1px;
     height: auto;
     z-index: 10;
     display:flex;
-    
+    cursor:pointer;
 
 
 
@@ -86,11 +85,11 @@ nav .logo:hover {
 
 }
 
-.btn {
-    background-color: black;
-    color: rgb(241, 238, 238);
-    font-weight: 900;
-    z-index: 100;
+.heading .search{
+    width: 1px;
+    height: auto;
+    z-index: 10;
+    display:flex;
     cursor: pointer;
 
 }
