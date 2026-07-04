@@ -87,23 +87,14 @@ nav .logo:hover {
 }
 
 .btn {
-    background-color: white;
-    color: black;
-    padding: 11px 21px;
-    border-radius: 39px;
-    font-weight: 700;
+    background-color: black;
+    color: rgb(241, 238, 238);
+    font-weight: 900;
     z-index: 100;
     cursor: pointer;
 
 }
 
-.btn:hover {
-    background: black;
-    font-weight: 750;
-    border-style: solid;
-    border-color: white;
-    color: white;
-}
 
 
 
