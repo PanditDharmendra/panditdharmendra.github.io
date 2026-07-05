@@ -41,17 +41,17 @@ body {
     position: relative;
     top: 16px;
     z-index: 100;
-    
+
 
 }
 
 
-.heading .menu {
+.menu {
     width: 1px;
     height: auto;
     z-index: 10;
-    display:flex;
-    cursor:pointer;
+    display: flex;
+    cursor: pointer;
 
 
 
@@ -79,17 +79,17 @@ nav {
 
 
 nav .logo:hover {
-     font-family: "Martel Sans", sans-serif;
+    font-family: "Martel Sans", sans-serif;
     color: white;
     font-weight: 900;
 
 }
 
-.heading .search{
+ .header .search {
     width: 1px;
     height: auto;
     z-index: 10;
-    display:flex;
+    display: flex;
     cursor: pointer;
 
 }
@@ -116,7 +116,7 @@ nav .logo:hover {
     height: 63vh;
     position: relative;
     letter-spacing: 1px;
-    
+
 
 
 }
