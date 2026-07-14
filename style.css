@@ -24,7 +24,11 @@ body {
 
 
 /* Styles specifically for mobile phones */
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .main {
+        height: 69vh;
+    }
+}
 
 
 
@@ -61,13 +65,12 @@ body {
         justify-content: space-around;
         gap: 66px;
         align-items: center;
-        height: 33px;
+        height: 25px;
         margin: 0px 24px 0 24px;
         border-radius: 4px;
         position: relative;
-        top: 8px;
+        top: 2px;
         z-index: 100;
-
     }
 
     .menu {
@@ -85,7 +88,13 @@ body {
         font-style: normal;
         margin-right: 10px;
     }
+
+    img {
+        max-width: 21px;
+    }
 }
+
+
 
 
 
@@ -139,6 +148,14 @@ nav .logo:hover {
 
 }
 
+/* Nav responsiveness for mobile phones */
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 3px 3px;
+    }
+}
+
+
 
 
 
@@ -190,11 +207,11 @@ nav .logo:hover {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .container {
         flex-direction: column;
         text-align: center;
-        gap: 15px;
+        gap: 5px;
     }
 
 }
